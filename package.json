@@ -12,6 +12,7 @@
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "tsparticles": "^1.31.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
