@@ -44,7 +44,7 @@ export const Data = {
       {
         label: "Maaato",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/Maaato",
+        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
         className: "bxl-linkedin-square",
       },
       {
@@ -65,13 +65,21 @@ export const Data = {
     works: [
       {
         title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Actualidad",
+        period: "Oct. 2021 - Actualidad",
+        company: "Banco Ripley",
+        description: [
+          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
+          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
+          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+        ],
+      },
+      {
+        title: "FULL-STACK DEVELOPER",
+        period: "Oct. 2019 - Oct. 2021",
         company: "Altiuz",
         description: [
           "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
           "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
-          "Despliegues PaaS: Openshift, Heroku, Railway, Vercel complementado con CI/CD.",
-          "Despliegues AS: Jboss/Wildfly, IBM Websphere, Oracle Weblogic, Tomcat, Glassfish.",
         ],
       },
     ],
@@ -94,7 +102,7 @@ export const Data = {
       {
         name: "Captación Digital",
         company: "Banco Ripley",
-        period: "Feb. 2020",
+        period: "Ene. 2020 - Feb. 2020",
         description: [
           "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
           "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
