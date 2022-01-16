@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Profile } from "../Components/Profile";
 import { Academic } from "../Components/Academic";
@@ -26,7 +26,7 @@ export const Resume = () => {
   const { profile, aboutMe, skills, socialMedia, experience } = dataSchema;
 
   return (
-    <Fragment>
+    <>
       {!matches && <Menu {...menuSchema} />}
       <main className="l-main bd-container" id="bd-container">
         <div className="resume" id="area-cv">
@@ -43,6 +43,6 @@ export const Resume = () => {
           </div>
         </div>
       </main>
-    </Fragment>
+    </>
   );
 };

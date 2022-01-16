@@ -7,7 +7,7 @@ export const Skills = ({
   softSkills,
 }) => {
   return (
-    <React.Fragment>
+    <>
       <section className="technical-skills section" id="skills">
         <h2 className="section-title">{technicalLabel}</h2>
         <div className="skills__content bd-grid">
@@ -24,7 +24,7 @@ export const Skills = ({
           </ul>
         </div>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 
