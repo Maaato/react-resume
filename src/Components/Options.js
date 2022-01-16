@@ -33,7 +33,7 @@ export const Options = () => {
   };
 
   return (
-    <div className="home__options">
+    <div className="home__options" id="resume__options">
       {theme === "dark" && (
         <i
           className="bx bx-cloud-snow enable-snow"

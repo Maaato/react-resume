@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -14,7 +14,7 @@
   --body-color: #f2f4f8;
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -274,7 +274,13 @@ body.dark-theme {
   margin-right: 0.25rem;
 }
 
-.home__button-movil {
+.generate__container {
+  gap: 1rem;
+  display: inline-grid;
+  text-align: center;
+}
+
+.generate__btn {
   display: inline-block;
   border: 2px solid var(--text-color);
   color: var(--title-color);
@@ -282,12 +288,20 @@ body.dark-theme {
   border-radius: 0.25rem;
   transition: 0.3s;
   font-weight: var(--font-medium);
-  margin-top: var(--mb-3);
 }
 
-.home__button-movil:hover {
+.generate__btn:hover {
   background-color: var(--text-color);
   color: var(--container-color);
+}
+
+button.generate__btn {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: var(--body-font);
 }
 
 .social__container {

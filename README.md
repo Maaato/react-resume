@@ -1,29 +1,31 @@
-# React Resume
+# React Resume - Responsive and customizable CV / Resume
 
-Responsive resume cv website using React. Light | dark mode 🌗 and snow particles ❄️.
+You can easily create your fully beautiful CV / Resume by passing necessary props. <br/>
+Just clone or fork the repository and edit [data.js](https://github.com/Maaato/react-resume/blob/master/src/Schemas/Data.js) inside schemas folder and build your own CV.
 
-## Built With :wrench:
+- Light / Dark mode 🌗
+- Snowflakes mode ❄️
 
-- [Reactjs](https://es.reactjs.org)
+[Preview](https://react-resume-rho.vercel.app)
+
+## Getting Started 👋
+### Built With 🛠️
+
+- [React](https://es.reactjs.org)
 - [Boxicons](https://boxicons.com)
 - [React-particles-js](https://www.npmjs.com/package/react-particles-js)
+- [React-helmet](https://github.com/nfl/react-helmet)
 
-## Getting Started :rocket:
-
-### Installation
+### Installation 🔧
 ```
-> npm install
+$ yarn install
 > Edit Schemas/Data.js with your personal information
 ```
-### Running the app
+### Running the app 🏃
 ```
 # dev mode
 $ npm run start
 ```
-
-## Show your support :star:
-
-Give a :star: if you like this project!
 
 ## License :memo:
 
