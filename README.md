@@ -7,6 +7,7 @@ Just clone or fork the repository and edit [data.js](https://github.com/Maaato/r
 - Snowflakes mode ❄️
 
 [Preview](https://react-resume-rho.vercel.app)
+[feature/Generate-CV-PDF](https://react-resume-o9i3phopk-maaato.vercel.app)
 
 ## Getting Started 👋
 ### Built With 🛠️
