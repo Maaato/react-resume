@@ -78,7 +78,7 @@ export const GenerateCV = ({ email, location, telephone, social }) => {
     setSocialNodes([]);
     setSocialNodesText([]);
     document.getElementById('resume__options').style.display = 'block';
-    document.getElementById('resume__generate').style.display = 'block';
+    document.getElementById('resume__generate').style.display = 'inline-grid';
   };
 
   return (

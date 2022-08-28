@@ -451,6 +451,10 @@ button.generate__btn {
     background-color: var(--container-color-alt);
   }
 
+  .resume__right {
+    background-color: var(--container-color);
+  }
+
   .resume__left,
   .resume__right {
     padding: 0 1.5rem;
