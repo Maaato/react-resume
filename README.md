@@ -15,6 +15,8 @@ Just clone or fork the repository and edit [data.js](https://github.com/Maaato/r
 - [Boxicons](https://boxicons.com)
 - [React-particles-js](https://www.npmjs.com/package/react-particles-js)
 - [React-helmet](https://github.com/nfl/react-helmet)
+- [html2canvas](https://github.com/niklasvh/html2canvas)
+- [jsPDF](https://github.com/parallax/jsPDF)
 
 ### Installation 🔧
 ```
