@@ -21,7 +21,7 @@ export const GenerateCV = ({ email, location, telephone, social }) => {
     pdf.addFileToVFS('poppins-Medium.ttf', POPPINS_FONT_B64);
     pdf.addFont('poppins-Medium.ttf', 'POPPINS_FONT_B64', 'normal');
     pdf.setFont('POPPINS_FONT_B64');
-    pdf.setTextColor('#b5c4db');
+    pdf.setTextColor(document.body.classList.contains('dark-theme') ? '#b5c4db' : '#4c566a');
     pdf.setFontSize(11);
 
     pdf.text(location, 15, 72);
