@@ -27,7 +27,6 @@ export const GenerateCV = ({ email, location, telephone, social }) => {
     pdf.text(location, 15, 72);
     pdf.text(email, 15, 82);
     pdf.text(telephone, 15, 92);
-    pdf.setFontSize(12);
 
     const starterPositionX = 15;
     let starterPositionY = 406;
