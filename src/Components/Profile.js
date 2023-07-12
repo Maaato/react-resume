@@ -1,5 +1,6 @@
 import React from "react";
 import { Options } from "./Options";
+import { GenerateCV } from "./GenerateCV";
 
 export const Profile = ({
   name,
