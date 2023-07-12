@@ -5,7 +5,7 @@ export const Data = {
     location: "DaNang, VietNam",
     email: "nghoanglong11501@gmail.com",
     telephone: "+84 935.026.703",
-    image: "images/90208122_10222269974249078_3631065450546200576_n.jpg",
+    image: "images/360004646_124973517311965_3040510572023275002_n.jpg",
   },
   aboutMe: {
     label: "Personal Profile",
