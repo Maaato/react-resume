@@ -14,7 +14,7 @@ export const Proyects = ({ proyects }) => {
   );
 };
 
-const Proyect = ({ name, company, period, description }) => {
+const Proyect = ({ name, company, period, description, url }) => {
   return (
     <div className="experience__content">
       <div className="experience__time">
@@ -25,9 +25,13 @@ const Proyect = ({ name, company, period, description }) => {
         <h3 className="experience__title">
           {name} - {company}
         </h3>
+
         <span className="experience__proyect">{period}</span>
-        {description.map((desc, i) => <Description key={i} desc={desc} />)}
+        {description.map((desc, i) => (
+          <Description key={i} desc={desc} />
+        ))}
       </div>
+      <a href={url}>View Project on Github</a>
     </div>
   );
 };

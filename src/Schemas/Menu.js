@@ -21,7 +21,7 @@ export const Menu = {
       className: "bx-briefcase-alt",
     },
     {
-      label: "Educación",
+      label: "Education",
       section: "#education",
       className: "bx-book",
     },
