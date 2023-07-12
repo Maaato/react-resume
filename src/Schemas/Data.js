@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "Personal Profile",
     description:
-      "Developer Front end, trained to develop computer applications in various technologies and multiple programming languages, applying agile development methodologies, including identification of needs and system designs based on development models.",
+      "Front end Developer , trained to develop computer applications in various technology and multiple programming languages, applying agile development methodologies, including identification of needs and system designs based on development models.",
   },
   skills: {
     technicalLabel: "Technology & Tool",
@@ -23,6 +23,7 @@ export const Data = {
       "SQL",
       "Github",
       "Figma",
+      "Google Cloud",
     ],
     softSkills: [
       "Communication",

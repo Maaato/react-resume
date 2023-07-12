@@ -4,7 +4,7 @@ import { Description } from "./Description";
 export const Proyects = ({ proyects }) => {
   return (
     <section className="proyects-experience section" id="proyects">
-      <h2 className="section-title">Proyectos</h2>
+      <h2 className="section-title">Project</h2>
       <div className="experience__container bd-grid">
         {proyects.map((proyect) => (
           <Proyect key={proyect.company} {...proyect} />
@@ -23,7 +23,7 @@ const Proyect = ({ name, company, period, description, url }) => {
       </div>
       <div className="experience__data bd-grid">
         <h3 className="experience__title">
-          {name} - {company}
+          {name} - {company} | <a href={url}> View Project on Github</a>
         </h3>
 
         <span className="experience__proyect">{period}</span>
@@ -31,7 +31,6 @@ const Proyect = ({ name, company, period, description, url }) => {
           <Description key={i} desc={desc} />
         ))}
       </div>
-      <a href={url}>View Project on Github</a>
     </div>
   );
 };
