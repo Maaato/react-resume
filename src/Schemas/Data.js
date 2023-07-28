@@ -83,6 +83,15 @@ export const Data = {
         period: "Apr. 2023 - Now",
         description: ["Convert landingpage from Figma to HTML and responsive."],
       },
+      {
+        name: "Mini Music Player",
+        url: "https://github.com/Nguyenhoanglongg/mini_music_player",
+        company: "Invidual Project",
+        period: "July. 2023 - Now",
+        description: [
+          "Develop a Mini Music Player with basic functions(Next/Prev/Pause/Play) ",
+        ],
+      },
     ],
   },
 };
