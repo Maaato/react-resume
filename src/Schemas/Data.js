@@ -89,7 +89,7 @@ export const Data = {
         company: "Invidual Project",
         period: "July. 2023 - Now",
         description: [
-          "Develop a Mini Music Player with basic functions(Next/Prev/Pause/Play) ",
+          "Develop a Mini Music Player with basic functions(Next/Prev/Pause/Play).",
         ],
       },
     ],
