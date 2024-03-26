@@ -27,7 +27,7 @@ export const Resume = () => {
   const { profile, aboutMe, skills, socialMedia, experience } = dataSchema;
   return (
     <>
-      <SEO {...profile} {...aboutMe} />
+      <SEO  {...profile} {...aboutMe} />
       {!matches && <Menu {...menuSchema} />}
       <main className='l-main bd-container' id='bd-container'>
         <div className='resume' id='area-cv'>
