@@ -1,5 +1,5 @@
-import React from "react";
 import { Description } from "./Description";
+
 export const Works = ({ works }) => {
   return (
     <section className="work-experience section" id="experience">
@@ -25,7 +25,7 @@ const Work = ({ title, period, company, description }) => {
         <span className="experience__company">
           {period} | {company}
         </span>
-        {description.map((desc,i) => <Description  key={i} desc={desc}/>)}
+        {description.map((desc, i) => <Description key={i} desc={desc} />)}
       </div>
     </div>
   );

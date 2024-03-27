@@ -1,4 +1,3 @@
-import React from "react";
 import { Options } from "./Options";
 
 export const Profile = ({
