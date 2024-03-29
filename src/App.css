@@ -1,5 +1,8 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== FONTS & ICONS =====*/
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "boxicons/css/boxicons.min.css";
 
 /*===== VARIABLES CSS =====*/
 :root {
