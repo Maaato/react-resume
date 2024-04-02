@@ -27,6 +27,7 @@
   --font-semi-bold: 600;
 
   /*========== Margenes ==========*/
+  --mb-0-25: 0.25rem;
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -334,6 +335,11 @@ button.generate__btn {
   display: flex;
 }
 
+.education__content:last-child,
+.experience__content:last-child .experience__time .experience__line {
+  height: 100%;
+}
+
 .education__time,
 .experience__time {
   padding-right: 1rem;
@@ -348,15 +354,19 @@ button.generate__btn {
   background-color: var(--text-color-light);
   border-radius: 50%;
   margin-top: 0.25rem;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 .education__line,
 .experience__line {
   display: block;
   width: 2px;
-  height: 110%;
+  height: 105%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 .education__data,
@@ -472,4 +482,88 @@ button.generate__btn {
   .home__container {
     gap: 1.5rem;
   }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
+/*========== PRINT ==========*/
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print {
+    display: block !important;
+  }
+
+  body {
+    background-color: var(--container-color);
+    font-size: x-small !important;
+  }
+
+  li {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  section {
+    padding: 1rem 0 !important;
+  }
+
+  .bd-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .l-header,
+  .scrolltop {
+    display: none;
+  }
+
+  .resume {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .resume__left {
+    background-color: var(--container-color-alt);
+  }
+
+  .resume__right {
+    background-color: var(--container-color);
+  }
+
+  .resume__left,
+  .resume__right {
+    padding: 0 1.5rem;
+  }
+
+  .enable-snow {
+    display: inline-block;
+  }
+
+  .section-title {
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .section-title,
+  .profile__description {
+    text-align: initial;
+  }
+
+  .home__container {
+    gap: 0.5rem;
+  }
+
+  .bd-grid {
+    gap: 0.5rem;
+  }
+
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
 }

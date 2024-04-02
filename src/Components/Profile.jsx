@@ -15,8 +15,8 @@ export const Profile = ({
   return (
     <section className='home' id='home'>
       <div className='home__container section bd-grid'>
-        <div className='home__data bd-grid'>
-          <img src={image} alt='profile_image' className='home__img' />
+        <div className='home__data bd-grid '>
+          <img src={image} alt='profile_image' className='home__img no-print' />
           <h1 className='home__title'>
             <strong>{name}</strong>
           </h1>

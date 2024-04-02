@@ -15,7 +15,7 @@ export const Menu = ({ menu }) => {
   };
 
   return (
-    <header className="l-header" id="header">
+    <header className="l-header no-print" id="header">
       <Router>
         <Route exact path="/"><Redirect to="/#home" /></Route>
         <nav className="nav bd-container">
