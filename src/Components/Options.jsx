@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Particles from "react-particles-js";
 import { ParticlesParams } from "../Schemas/Particles";
 

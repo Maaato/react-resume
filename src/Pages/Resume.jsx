@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-import { Profile } from '../Components/Profile';
-import { Academic } from '../Components/Academic';
-import { Skills } from '../Components/Skills';
-import { Proyects } from '../Components/Proyects';
-import { Works } from '../Components/Works';
-import { SocialMedia } from '../Components/SocialMedia';
-import { AboutMe } from '../Components/AboutMe';
-import { Menu } from '../Components/Menu';
-import { SEO } from '../Components/SEO';
+import { Profile } from "../Components/Profile";
+import { Academic } from "../Components/Academic";
+import { Skills } from "../Components/Skills";
+import { Proyects } from "../Components/Proyects";
+import { Works } from "../Components/Works";
+import { AboutMe } from "../Components/AboutMe";
+import { Menu } from "../Components/Menu";
+import { SEO } from "../Components/SEO";
 
 import { Data as dataSchema } from '../Schemas/Data';
 import { Menu as menuSchema } from '../Schemas/Menu';
@@ -35,7 +34,6 @@ export const Resume = () => {
             <Profile {...profile} {...socialMedia} isMobileView={!matches} />
             <AboutMe {...aboutMe} />
             <Skills {...skills} />
-            <SocialMedia {...socialMedia} />
           </div>
           <div className='resume__right'>
             <Works {...experience} />

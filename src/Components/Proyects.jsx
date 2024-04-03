@@ -1,4 +1,3 @@
-import React from "react";
 import { Description } from "./Description";
 
 export const Proyects = ({ proyects }) => {

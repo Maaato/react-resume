@@ -5,7 +5,7 @@ export const Data = {
     location: "Santiago, Chile",
     email: "lagos.matias25@gmail.com",
     telephone: "+56 971999705",
-    image: "images/90208122_10222269974249078_3631065450546200576_n.jpg",
+    image: "images/me.webp",
   },
   aboutMe: {
     label: "Perfil",
@@ -42,19 +42,19 @@ export const Data = {
     label: "SOCIAL",
     social: [
       {
-        label: "Maaato",
+        label: "Visitar el perfil de Matias Lagos en LinkedIn",
         name: "linkedin",
         url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Maaato",
+        label: "Visitar el perfil de Matias Lagos en GitHub",
         name: "github",
         url: "https://github.com/Maaato",
         className: "bxl-github",
       },
       {
-        label: "Maaato",
+        label: "Visitar el perfil de Matias Lagos en Twitter",
         name: "twiiter",
         url: "https://twitter.com/I_Maaato",
         className: "bxl-twitter",
