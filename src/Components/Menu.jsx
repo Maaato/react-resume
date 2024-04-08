@@ -2,8 +2,6 @@ import { useState } from "react";
 import {
   BrowserRouter as Router,
   NavLink,
-  Route,
-  Redirect,
 } from "react-router-dom";
 
 export const Menu = ({ menu }) => {
@@ -17,7 +15,6 @@ export const Menu = ({ menu }) => {
   return (
     <header className="l-header no-print" id="header">
       <Router>
-        <Route exact path="/"><Redirect to="/#home" /></Route>
         <nav className="nav bd-container">
           <span className="nav__logo">Menu</span>
           <div
