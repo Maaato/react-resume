@@ -44,7 +44,7 @@ export const Data = {
       {
         label: "Visitar el perfil de Matias Lagos en LinkedIn",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
+        url: "https://www.linkedin.com/in/mlagosg",
         className: "bxl-linkedin-square",
       },
       {
@@ -52,12 +52,6 @@ export const Data = {
         name: "github",
         url: "https://github.com/Maaato",
         className: "bxl-github",
-      },
-      {
-        label: "Visitar el perfil de Matias Lagos en Twitter",
-        name: "twiiter",
-        url: "https://twitter.com/I_Maaato",
-        className: "bxl-twitter",
       },
     ],
   },
